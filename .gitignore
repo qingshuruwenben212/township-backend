@@ -13,6 +13,7 @@ township_uploads/
 # Whisper training - ignore all, then whitelist only needed files
 后端服务器/whisper_training/**
 !后端服务器/whisper_training/finetune_full.py
+!后端服务器/whisper_training/preprocess.py
 !后端服务器/whisper_training/*.json
 !后端服务器/whisper_training/*.md
 !后端服务器/whisper_training/requirements.txt
