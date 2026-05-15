@@ -1,0 +1,32 @@
+# Virtual environment
+**/venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Uploaded files
+township_uploads/
+**/township_uploads/
+
+# Whisper training - ignore all, then whitelist only needed files
+后端服务器/whisper_training/**
+!后端服务器/whisper_training/finetune_full.py
+!后端服务器/whisper_training/*.json
+!后端服务器/whisper_training/*.md
+!后端服务器/whisper_training/requirements.txt
+
+# Model weights and cache
+*.pth
+*.pt
+*.bin
+*.ckpt
+*.safetensors
+
+# IDE
+**/.idea/
+
+# System
+.DS_Store
+Thumbs.db
